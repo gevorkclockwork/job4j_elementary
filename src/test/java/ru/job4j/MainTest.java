@@ -9,6 +9,6 @@ public class MainTest {
     public void whenActionThenResult() {
         int excepted = 1;
         int result = 1;
-        assertThat(result, is(excepted));
+        Assert.assertThat(result, CoreMatchers.is(excepted));
     }
 }
